@@ -37,7 +37,6 @@ android {
 dependencies {
     implementation Dependencies.MATERIAL
     implementation Dependencies.KOTLIN_STDLIB
-    implementation Dependencies.KOTLIN_SERIALIZATION
 
     implementation Dependencies.CONSTRAINT_LAYOUT
     implementation Dependencies.COROUTINES
