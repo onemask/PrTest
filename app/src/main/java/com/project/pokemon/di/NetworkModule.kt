@@ -1,6 +1,7 @@
 package com.project.pokemon.di
 
 import com.facebook.stetho.okhttp3.StethoInterceptor
+import com.project.pokemon.network.PokemonService
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
 import dagger.Module
@@ -61,7 +62,7 @@ class NetworkModule {
 
     @Provides
     @Singleton
-    fun provideService(retrofit: Retrofit): PokemonService =
+    fun provideService(retrofit: Retrofit) =
         retrofit.create(PokemonService::class.java)
 
 
