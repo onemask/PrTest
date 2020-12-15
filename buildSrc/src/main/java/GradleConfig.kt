@@ -25,7 +25,6 @@ object AndroidConfig {
 
 object Dependencies {
     const val KOTLIN_STDLIB = "org.jetbrains.kotlin:kotlin-stdlib:${Version.KOTLIN}"
-    const val KOTLIN_SERIALIZATION ="org.jetbrains.kotlinx:kotlinx-serialization-json:${Version.KOTLIN}"
     const val CORE_KTX = "androidx.core:core-ktx:1.3.0"
     const val MATERIAL = "com.google.android.material:material:1.1.0"
     const val CONSTRAINT_LAYOUT = "androidx.constraintlayout:constraintlayout:2.0.1"
